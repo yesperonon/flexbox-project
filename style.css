@@ -5,3 +5,155 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    display: block;
+}
+.body{
+    color: antiquewhite;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+h1{ 
+    margin: 30px;
+    margin-top: 90px;
+    margin-left: 90px;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+.links{
+    margin: 30px;
+    margin-right: 70px;
+    font-size: 1.3rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}    
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+a:visited{
+   color: #ACC8E5;
+}
+a:hover{
+    color: #c5d2e0;
+}
+.container{
+    margin-top: 3rem;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content h2{
+    margin-left: 50px;
+    margin-bottom: 2.3rem;
+    font-size: 1.7rem;
+}
+.text-content{
+        max-width: 50%;
+        font-size: 1.1rem;
+        margin: 90px;
+        line-height: 30px;
+}
+.text-content button{
+    margin-top: 30px;
+    margin-left: 300px;
+    padding: 10px 20px;
+    color: antiquewhite;
+    background-color: #3882f6;
+    border:solid 3px #3882f6;
+    border-radius: 7px;
+    
+}
+
+.img-container{
+    width: 25%;
+    margin-right: 70px;
+}
+.img-container img{
+    width: 100%;
+    height: auto;
+}
+h3{
+   text-align: center;
+   margin: 70px 0px 70px 0px;
+   font-size: 3rem;
+   text-decoration: underline;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+.hero img{
+    width: 20%;
+    height: auto;
+    border: 3px #cacdd2 solid ;
+    border-radius: 7px;
+}
+.hero-names{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-names h4{
+    margin: 30px;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+.desc{
+    display: flex;
+    justify-content: space-around;
+}
+.desc p{
+    text-align: center;
+    font-size: 1.3rem;
+    width: 17%;
+}
+.quote{
+    background-color:#cacdd2  ;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 2.1rem;
+    margin-top: 30px;
+    padding:100px;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.register{
+    width: 57%;
+    background-color: #7e94b7;
+    border:#7e94b7;
+    border-radius: 10px;
+    color: antiquewhite;
+    margin: auto;
+    margin-top: 70px;
+
+}
+.register h5, p{
+    padding-top:30px  ;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.register button{
+   margin-top:30px;
+   margin-bottom: 30px;
+   margin-left:45%;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: #7e94b7;
+    border:solid 3px antiquewhite;
+    border-radius: 7px;
+}
+.footer{
+    background-color: #1f2937;
+    margin-top: 50px;
+    color: antiquewhite;
+    text-align: center;
+}
